@@ -28,7 +28,7 @@ def load_data(cancer_types):
     return pd.read_csv(data_path + file_name)
 
 
-st.markdown('What genes are differentially expressed in '+cancer_type.lower()+"?")
+st.markdown('Get genes that are differentially expressed in '+cancer_type.lower()+" TCGA compared to GTEx")
 
 
 # Sidebar inputs
